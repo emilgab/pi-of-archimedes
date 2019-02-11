@@ -35,4 +35,4 @@ def estimate_pi():
         # Changes the side_len variable for our next estimate of pi, with double the amount of sides.
         side_len = ((b**2)+(side_half**2))**0.5
         
-print(estimate_pi())
+estimate_pi()
