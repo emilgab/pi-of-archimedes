@@ -30,7 +30,7 @@ def estimate_pi():
         
         estimate_pi = perimeter / 2
         
-        print(f"Estimated Pi with a polygon of {polygon} is {estimate_pi}")
+        print(f"Estimated Pi with a polygon of {polygon} sides is {estimate_pi}")
         
         # Changes the side_len variable for our next estimate of pi, with double the amount of sides.
         side_len = ((b**2)+(side_half**2))**0.5
